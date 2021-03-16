@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="jee_recrutement@localhost">
+  <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.19">
+    <root id="1">
+      <ServerVersion>14.0.1000</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="Commandes">
+      <ObjectId>9</ObjectId>
+    </database>
+    <database id="3" parent="1" name="dbTest">
+      <ObjectId>5</ObjectId>
+      <Collation>French_CI_AS</Collation>
+    </database>
+    <database id="4" parent="1" name="jee_recrutement">
+      <ObjectId>13</ObjectId>
+      <Current>1</Current>
+      <Collation>French_CI_AS</Collation>
+      <Fingerprint>13.44268/5728C3BA-0349-4A37-8C17-74143671657A@DESKTOP-10LGI3U\SQLEXPRESS</Fingerprint>
+    </database>
+    <database id="5" parent="1" name="manage_optique">
+      <ObjectId>11</ObjectId>
+      <Collation>French_CI_AS</Collation>
+    </database>
+    <database id="6" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+      <Collation>French_CI_AS</Collation>
+    </database>
+    <database id="7" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <Collation>French_CI_AS</Collation>
+    </database>
+    <database id="8" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <Collation>French_CI_AS</Collation>
+    </database>
+    <database id="9" parent="1" name="optique_pfe">
+      <ObjectId>12</ObjectId>
+      <Collation>French_CI_AS</Collation>
+    </database>
+    <database id="10" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <Collation>French_CI_AS</Collation>
+    </database>
+    <database id="11" parent="1" name="testBaseD">
+      <ObjectId>10</ObjectId>
+    </database>
+    <database id="12" parent="1" name="testDB">
+      <ObjectId>6</ObjectId>
+      <Collation>French_CI_AS</Collation>
+    </database>
+    <database id="13" parent="1" name="vente1">
+      <ObjectId>8</ObjectId>
+    </database>
+    <database id="14" parent="1" name="ventes">
+      <ObjectId>7</ObjectId>
+      <Collation>French_CI_AS</Collation>
+    </database>
+    <schema id="15" parent="4" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="16" parent="4" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="17" parent="4" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="18" parent="4" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="19" parent="4" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="20" parent="4" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="21" parent="4" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="22" parent="4" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="23" parent="4" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="24" parent="4" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="25" parent="4" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2021-03-16.20:33:36.303</IntrospectionTimestamp>
+      <Current>1</Current>
+    </schema>
+    <schema id="26" parent="4" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="27" parent="4" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <table id="28" parent="25" name="agence">
+      <ObjectId>901578250</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:29.857</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:29.857</ModifiedTimestamp>
+    </table>
+    <table id="29" parent="25" name="candidat">
+      <ObjectId>917578307</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:29.880</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.360</ModifiedTimestamp>
+    </table>
+    <table id="30" parent="25" name="competence">
+      <ObjectId>949578421</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.040</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.310</ModifiedTimestamp>
+    </table>
+    <table id="31" parent="25" name="compte">
+      <ObjectId>981578535</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.063</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.373</ModifiedTimestamp>
+    </table>
+    <table id="32" parent="25" name="cv">
+      <ObjectId>1013578649</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.100</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.353</ModifiedTimestamp>
+    </table>
+    <table id="33" parent="25" name="departement">
+      <ObjectId>1045578763</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.157</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.340</ModifiedTimestamp>
+    </table>
+    <table id="34" parent="25" name="entretien">
+      <ObjectId>1077578877</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.160</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.313</ModifiedTimestamp>
+    </table>
+    <table id="35" parent="25" name="experience">
+      <ObjectId>1109578991</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.163</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.320</ModifiedTimestamp>
+    </table>
+    <table id="36" parent="25" name="formation">
+      <ObjectId>1141579105</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.200</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.323</ModifiedTimestamp>
+    </table>
+    <table id="37" parent="25" name="lettremotivation">
+      <ObjectId>1173579219</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.203</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.333</ModifiedTimestamp>
+    </table>
+    <table id="38" parent="25" name="offre">
+      <ObjectId>1205579333</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.207</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.363</ModifiedTimestamp>
+    </table>
+    <table id="39" parent="25" name="postulation">
+      <ObjectId>1237579447</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.223</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.347</ModifiedTimestamp>
+    </table>
+    <table id="40" parent="25" name="projet">
+      <ObjectId>1269579561</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.227</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.353</ModifiedTimestamp>
+    </table>
+    <table id="41" parent="25" name="recrutement">
+      <ObjectId>1301579675</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.230</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.367</ModifiedTimestamp>
+    </table>
+    <table id="42" parent="25" name="recruteur">
+      <ObjectId>1333579789</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.237</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.373</ModifiedTimestamp>
+    </table>
+    <column id="43" parent="28" name="nom">
+      <Position>1</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="44" parent="28" name="description">
+      <Position>2</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="45" parent="28" name="adresse">
+      <Position>3</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="46" parent="28" name="mot_de_passe">
+      <Position>4</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="47" parent="29" name="nom_complet">
+      <Position>1</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="48" parent="29" name="photo_url">
+      <Position>2</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="49" parent="29" name="titre_emploi">
+      <Position>3</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="50" parent="29" name="civilite">
+      <Position>4</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="51" parent="29" name="id">
+      <Position>5</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="52" parent="29" name="id_compte">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="53" parent="29" name="id_cv">
+      <Position>7</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="54" parent="29" name="PK_candidat">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="55" parent="29" name="PK_candidat">
+      <ObjectId>933578364</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:29.970</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:29.970</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_candidat</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="56" parent="29" name="FK_candidat_compte">
+      <ObjectId>1365579903</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.297</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.297</ModifiedTimestamp>
+      <ColNames>id_compte</ColNames>
+      <RefTableId>981578535</RefTableId>
+      <RefTableName>compte</RefTableName>
+      <RefKeyName>PK_compte</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="57" parent="29" name="FK_candidat_cv">
+      <ObjectId>1381579960</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.303</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.303</ModifiedTimestamp>
+      <ColNames>id_cv</ColNames>
+      <RefTableId>1013578649</RefTableId>
+      <RefTableName>cv</RefTableName>
+      <RefKeyName>PK_cv</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="58" parent="30" name="nom">
+      <Position>1</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="59" parent="30" name="type">
+      <Position>2</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="60" parent="30" name="niveau">
+      <Position>3</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="61" parent="30" name="id">
+      <Position>4</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="62" parent="30" name="id_cv">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="63" parent="30" name="PK_competence">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="64" parent="30" name="PK_competence">
+      <ObjectId>965578478</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.060</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.060</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_competence</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="65" parent="30" name="FK_competence_cv">
+      <ObjectId>1397580017</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.310</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.310</ModifiedTimestamp>
+      <ColNames>id_cv</ColNames>
+      <RefTableId>1013578649</RefTableId>
+      <RefTableName>cv</RefTableName>
+      <RefKeyName>PK_cv</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="66" parent="31" name="ville">
+      <Position>1</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="67" parent="31" name="email">
+      <Position>2</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="68" parent="31" name="mot_de_passe">
+      <Position>3</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="69" parent="31" name="num_tel">
+      <Position>4</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="70" parent="31" name="verifed">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="71" parent="31" name="type_compte">
+      <Position>6</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="72" parent="31" name="id">
+      <Position>7</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="73" parent="31" name="PK_compte">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="74" parent="31" name="PK_compte">
+      <ObjectId>997578592</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.097</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.097</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_compte</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="75" parent="32" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="76" parent="32" name="description">
+      <Position>2</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="77" parent="32" name="PK_cv">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="78" parent="32" name="PK_cv">
+      <ObjectId>1029578706</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.157</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.157</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_cv</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="79" parent="33" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="80" parent="33" name="nom">
+      <Position>2</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="81" parent="33" name="PK_departement">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="82" parent="33" name="PK_departement">
+      <ObjectId>1061578820</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.160</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.160</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_departement</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="83" parent="34" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="84" parent="34" name="resultat">
+      <Position>2</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="85" parent="34" name="id_recrutement">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="86" parent="34" name="PK_entretien">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="87" parent="34" name="PK_entretien">
+      <ObjectId>1093578934</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.160</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.160</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_entretien</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="88" parent="34" name="FK_entretien_recrutement">
+      <ObjectId>1413580074</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.313</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.313</ModifiedTimestamp>
+      <ColNames>id_recrutement</ColNames>
+      <RefTableId>1301579675</RefTableId>
+      <RefTableName>recrutement</RefTableName>
+      <RefKeyName>PK_recrutement</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="89" parent="35" name="nom_entreprise">
+      <Position>1</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="90" parent="35" name="sujet">
+      <Position>2</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="91" parent="35" name="type">
+      <Position>3</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="92" parent="35" name="duree">
+      <Position>4</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="93" parent="35" name="id">
+      <Position>5</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="94" parent="35" name="id_cv">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="95" parent="35" name="PK_experience">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="96" parent="35" name="PK_experience">
+      <ObjectId>1125579048</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.197</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.197</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_experience</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="97" parent="35" name="FK_experience_cv">
+      <ObjectId>1429580131</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.320</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.320</ModifiedTimestamp>
+      <ColNames>id_cv</ColNames>
+      <RefTableId>1013578649</RefTableId>
+      <RefTableName>cv</RefTableName>
+      <RefKeyName>PK_cv</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="98" parent="36" name="nom_etablissement">
+      <Position>1</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="99" parent="36" name="nom_diplome">
+      <Position>2</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="100" parent="36" name="duree">
+      <Position>3</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="101" parent="36" name="id">
+      <Position>4</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="102" parent="36" name="id_cv">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="103" parent="36" name="PK_formation">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="104" parent="36" name="PK_formation">
+      <ObjectId>1157579162</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.200</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.200</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_formation</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="105" parent="36" name="FK_formation_cv">
+      <ObjectId>1445580188</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.323</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.323</ModifiedTimestamp>
+      <ColNames>id_cv</ColNames>
+      <RefTableId>1013578649</RefTableId>
+      <RefTableName>cv</RefTableName>
+      <RefKeyName>PK_cv</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="106" parent="37" name="body">
+      <Position>1</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="107" parent="37" name="id">
+      <Position>2</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="108" parent="37" name="id_postulation">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="109" parent="37" name="id_candidat">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="110" parent="37" name="PK_lettremotivation">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="111" parent="37" name="PK_lettremotivation">
+      <ObjectId>1189579276</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.203</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.203</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_lettremotivation</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="112" parent="37" name="FK_lettremotivation_postulation">
+      <ObjectId>1477580302</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.333</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.333</ModifiedTimestamp>
+      <ColNames>id_postulation</ColNames>
+      <RefTableId>1237579447</RefTableId>
+      <RefTableName>postulation</RefTableName>
+      <RefKeyName>PK_postulation</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="113" parent="37" name="FK_lettremotivation_candidat">
+      <ObjectId>1461580245</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.330</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.330</ModifiedTimestamp>
+      <ColNames>id_candidat</ColNames>
+      <RefTableId>917578307</RefTableId>
+      <RefTableName>candidat</RefTableName>
+      <RefKeyName>PK_candidat</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="114" parent="38" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="115" parent="38" name="titre">
+      <Position>2</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="116" parent="38" name="description">
+      <Position>3</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="117" parent="38" name="emplacement">
+      <Position>4</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="118" parent="38" name="type_contrat">
+      <Position>5</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="119" parent="38" name="metier">
+      <Position>6</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="120" parent="38" name="salaire_et_primes">
+      <Position>7</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="121" parent="38" name="date_création">
+      <Position>8</Position>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="122" parent="38" name="competences_requises">
+      <Position>9</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="123" parent="38" name="id_recruteur">
+      <Position>10</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="124" parent="38" name="id_departement">
+      <Position>11</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="125" parent="38" name="PK_offre">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="126" parent="38" name="PK_offre">
+      <ObjectId>1221579390</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.220</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.220</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_offre</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="127" parent="38" name="FK_offre_departement">
+      <ObjectId>1493580359</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.340</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.340</ModifiedTimestamp>
+      <ColNames>id_departement</ColNames>
+      <RefTableId>1045578763</RefTableId>
+      <RefTableName>departement</RefTableName>
+      <RefKeyName>PK_departement</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="128" parent="39" name="date">
+      <Position>1</Position>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="129" parent="39" name="id">
+      <Position>2</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="130" parent="39" name="id_offre">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="131" parent="39" name="id_candidat">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="132" parent="39" name="PK_postulation">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="133" parent="39" name="PK_postulation">
+      <ObjectId>1253579504</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.227</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.227</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_postulation</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="134" parent="39" name="FK_postulation_offre">
+      <ObjectId>1525580473</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.347</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.347</ModifiedTimestamp>
+      <ColNames>id_offre</ColNames>
+      <RefTableId>1205579333</RefTableId>
+      <RefTableName>offre</RefTableName>
+      <RefKeyName>PK_offre</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="135" parent="39" name="FK_postulation_candidat">
+      <ObjectId>1509580416</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.343</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.343</ModifiedTimestamp>
+      <ColNames>id_candidat</ColNames>
+      <RefTableId>917578307</RefTableId>
+      <RefTableName>candidat</RefTableName>
+      <RefKeyName>PK_candidat</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="136" parent="40" name="titre">
+      <Position>1</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="137" parent="40" name="type">
+      <Position>2</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="138" parent="40" name="id">
+      <Position>3</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="139" parent="40" name="id_cv">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="140" parent="40" name="PK_projet">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="141" parent="40" name="PK_projet">
+      <ObjectId>1285579618</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.230</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.230</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_projet</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="142" parent="40" name="FK_projet_cv">
+      <ObjectId>1541580530</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.353</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.353</ModifiedTimestamp>
+      <ColNames>id_cv</ColNames>
+      <RefTableId>1013578649</RefTableId>
+      <RefTableName>cv</RefTableName>
+      <RefKeyName>PK_cv</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="143" parent="41" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="144" parent="41" name="date">
+      <Position>2</Position>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="145" parent="41" name="id_recruteur">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="146" parent="41" name="id_candidat">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="147" parent="41" name="id_offre">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="148" parent="41" name="PK_recrutement">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="149" parent="41" name="PK_recrutement">
+      <ObjectId>1317579732</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.233</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.233</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_recrutement</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="150" parent="41" name="FK_recrutement_recruteur">
+      <ObjectId>1589580701</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.367</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.367</ModifiedTimestamp>
+      <ColNames>id_recruteur</ColNames>
+      <RefTableId>1333579789</RefTableId>
+      <RefTableName>recruteur</RefTableName>
+      <RefKeyName>PK_recruteur</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="151" parent="41" name="FK_recrutement_candidat">
+      <ObjectId>1557580587</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.357</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.357</ModifiedTimestamp>
+      <ColNames>id_candidat</ColNames>
+      <RefTableId>917578307</RefTableId>
+      <RefTableName>candidat</RefTableName>
+      <RefKeyName>PK_candidat</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="152" parent="41" name="FK_recrutement_offre">
+      <ObjectId>1573580644</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.363</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.363</ModifiedTimestamp>
+      <ColNames>id_offre</ColNames>
+      <RefTableId>1205579333</RefTableId>
+      <RefTableName>offre</RefTableName>
+      <RefKeyName>PK_offre</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="153" parent="42" name="nom">
+      <Position>1</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="154" parent="42" name="description">
+      <Position>2</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="155" parent="42" name="siteweb">
+      <Position>3</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="156" parent="42" name="id_compte">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="157" parent="42" name="id">
+      <Position>5</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="158" parent="42" name="PK_recruteur">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="159" parent="42" name="PK_recruteur">
+      <ObjectId>1349579846</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.273</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.273</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_recruteur</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="160" parent="42" name="FK_recruteur_compte">
+      <ObjectId>1605580758</ObjectId>
+      <CreatedTimestamp>2021-03-14.16:18:30.373</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-14.16:18:30.373</ModifiedTimestamp>
+      <ColNames>id_compte</ColNames>
+      <RefTableId>981578535</RefTableId>
+      <RefTableName>compte</RefTableName>
+      <RefKeyName>PK_compte</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+  </database-model>
+</dataSource>
